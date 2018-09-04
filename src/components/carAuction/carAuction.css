@@ -1,0 +1,80 @@
+.auction-section {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.auction-list-item {
+    justify-content: space-between;
+    width: calc(32% - 2px);
+    margin: 1% 0;
+    border: 1px solid #e4e4e4;
+    border-radius: 5px;
+    background-color: #ffffff;
+}
+
+.pic-section img {
+    width: 100%;
+    display: block;
+}
+
+.detail-link {
+    background-color: rgba(0,0,0,0.4);
+    position: relative;
+    top: -30px;
+    color: white;
+    display: block;
+    text-align: center;
+    padding: 5px 0;
+    height: 20px;
+}
+
+.info-section {
+    padding: 0 10px 10px 10px;
+}
+
+.flex-row-top, .flex-row-middle, .flex-row-bottom {
+    display: flex;
+    justify-content: center;
+    border-bottom: 2px solid #e4e4e4;
+}
+
+.flex-row-bottom {
+    margin-bottom: 20px;
+}
+
+.timer-section, .last-bid-section, .year-section, .km-section {
+    flex: 1 1 50%;
+    text-align: center;
+}
+
+.timer-section span, .last-bid-section span{
+    font-size: 11px;
+}
+
+.timer-section h2, .year-section p{
+    border-right: 2px solid #e4e4e4;
+}
+
+.car-info-section {
+    text-align: center;
+}
+
+.flex-row-place-offer-button button {
+    width: 100%;
+    background: #3eb871;
+    padding: 12px;
+    color: #ffffff;
+    font-weight: bolder;
+    border-radius: 5px;
+}
+
+.timer-section h2 {
+    color: #ff6d4a;
+}
+
+.last-bid-section h2 {
+    color: #3eb871;
+}

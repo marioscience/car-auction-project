@@ -1,0 +1,40 @@
+.navbar {
+    background-color: #ffffff;
+    font-family: ‘Open Sans’, sans-serif;
+}
+
+.navbar-content {
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-section {
+    flex: 1 0 auto;
+    border-right: 2px solid #e4e4e4;
+}
+
+.phone-section {
+    flex: 10 0 auto;
+    display: flex;
+    padding-left: 5%;
+}
+
+.phone-section img {
+    padding-right: 15px;
+}
+
+.user-section {
+    flex: 1 0 auto;
+    display: flex;
+    border: 1px solid #e4e4e4;
+    justify-content: center;
+    padding: 10px 10px 0px 10px;;
+}
+
+.user-box {
+    display: flex;
+    flex-direction: column;
+}
